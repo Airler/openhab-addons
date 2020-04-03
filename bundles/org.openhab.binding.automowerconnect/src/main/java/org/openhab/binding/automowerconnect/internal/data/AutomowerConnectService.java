@@ -10,17 +10,28 @@
  *
  * SPDX-License-Identifier: EPL-2.0
  */
-package org.openhab.binding.automowerconnect.internal;
+
+package org.openhab.binding.automowerconnect.internal.data;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 /**
- * The {@link AutomowerConnectConfiguration} class contains fields mapping thing configuration parameters.
+ * The {@link AutomowerConnectService} class ...
  *
  * @author Torben Erler - Initial contribution
  */
-public class AutomowerConnectConfiguration {
+public class AutomowerConnectService {
+
+    private final Logger logger = LoggerFactory.getLogger(this.getClass());
+
+    private static final int REQUEST_TIMEOUT = 5000;
 
     /**
-     * Sample configuration parameter. Replace with your own.
+     *
      */
-    public String config1;
+    public AutomowerConnectService() {
+        // TODO Auto-generated constructor stub
+    }
+
 }
